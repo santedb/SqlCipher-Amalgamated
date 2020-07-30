@@ -1,22 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SqlCipher", "SqlCipher\SqlCipher.vcxproj", "{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpellFix", "SpellFix\SpellFix.vcxproj", "{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Debug|Win32.Build.0 = Debug|Win32
+		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Debug|x64.ActiveCfg = Debug|Win32
 		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Release|Win32.ActiveCfg = Release|Win32
 		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Release|Win32.Build.0 = Release|Win32
+		{9B8982D6-DA7A-46CC-919D-DD2E6AA4ADA1}.Release|x64.ActiveCfg = Release|Win32
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Debug|Win32.Build.0 = Debug|Win32
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Debug|x64.ActiveCfg = Debug|x64
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Debug|x64.Build.0 = Debug|x64
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Release|Win32.ActiveCfg = Release|Win32
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Release|Win32.Build.0 = Release|Win32
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Release|x64.ActiveCfg = Release|x64
+		{18A7110E-14FF-4AAA-B5C9-3F9D0F67F94D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB3E8E12-36F8-4C3C-91B2-1FC9E51E172C}
 	EndGlobalSection
 EndGlobal
